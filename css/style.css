@@ -26,6 +26,7 @@ canvas {
     flex-direction: column;
     align-items: center;
     font-size: 1.8rem;
+    margin-bottom: 30px;
 }
 
 .score--value {
@@ -67,4 +68,28 @@ canvas {
     justify-content: center;
     gap: 5px;
     cursor: pointer;
+}
+
+.saiba-mais {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 15px 25px;
+    background: linear-gradient(45deg, #4b0091, #6b5bde, #4b0091, #6b5bde);
+    background-size: 400% 200%;
+    font-weight: 500;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-left: -5px;
+    color: #fff;
+}
+
+
+.saiba-mais:hover {
+    -xpedu-transform: scale(0.1);
+    -ms-transform: scale(0.1);
+    transform: scale(1.1);
+    transition: 0.5s;
+    opacity: 0.8;
 }

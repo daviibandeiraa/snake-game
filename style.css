@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    outline: none;
+}
+
+
+body {
+    background-color: #1b1e23;
+}
+
+#home{
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 250px;
+    
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+
+.container-button{
+    display: flex;
+    flex-direction: row;
+    column-gap: 25px;
+}
+
+.saiba-mais {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 15px 25px;
+    background: linear-gradient(45deg, #4b0091, #6b5bde, #4b0091, #6b5bde);
+    background-size: 400% 200%;
+    font-weight: 500;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-left: -5px;
+}
+
+
+.saiba-mais:hover {
+    -xpedu-transform: scale(0.1);
+    -ms-transform: scale(0.1);
+    transform: scale(1.1);
+    transition: 0.5s;
+    opacity: 0.8;
+}
+.iniciar-jogo {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 15px 25px;
+    background: linear-gradient(45deg, #4b0091, #6b5bde, #4b0091, #6b5bde);
+    background-size: 400% 200%;
+    font-weight: 500;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-left: -5px;
+}
+.iniciar-jogo:hover {
+    -xpedu-transform: scale(0.1);
+    -ms-transform: scale(0.1);
+    transform: scale(1.1);
+    transition: 0.5s;
+    opacity: 0.8;
+}
+
+.title {
+    font-size: 48px;
+}
+
+span {
+    font-size: 24px;
+    line-height: 1.4;
+}
+
+.alunos {
+    font-size: 28px;
+}
+.textos{
+    margin-top: 15px;
+}
+.alunos-envolvidos{
+    margin-top: 10px;
+}
+.lista-alunos {
+    list-style: none;
+}
+
+li {
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.right-side {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)), url(assets/jogo\ cobrinha\ .jpg);
+    background-position: left;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    height: 45vh;
+    border-radius: 10px;
+}
+
+.seta {
+    width: 10%;
+    height: 5vh;
+    margin-top: 5px;
+}
+
+
+
+.play{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:100%;
+    height: 25vh;
+    margin-right: auto;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+
+.imagem{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/* ======= SOBRE ======= */
+
+#sobre{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+#sobre .container-sobre {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    text-align: center;    
+}
+
+#sobre .textos{
+    padding-top: 30px;
+    font-size: 20px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    line-height: 1.4;
+}
+

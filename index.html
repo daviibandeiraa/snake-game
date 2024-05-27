@@ -1,32 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="stylesheet" href="./css/style.css">
-    
-    <title>Snake Game</title>
-</head>
-<body>
-    <div class="score">score: <span class="score--value">00</span></div>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jogo de Cálculo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-    <div class="menu-screen">
-        <span class="game-over">game over</span>
-        <span class="final-score">score <span>00</span></span>
-
-        <button class="btn-play">
-            <span class="material-symbols-outlined">
-                play_circle
+  <body>
+    <section id="home">
+      <div class="container">
+        <div class="left-side">
+          <h1 class="title">Projeto da Monica</h1>
+          <div class="textos">
+            <span>
+              Projeto de jogo para matéria de Cálculo 1
+              <br />
+              <strong>Profª Mônica</strong>
             </span>
-            
-            Jogar novamente
-        </button>
-    </div>
 
-    <canvas width="600" height="600"></canvas>
-    <script src="./js/script.js"></script>
-</body>
+            <div class="alunos-envolvidos">
+              <h1 class="alunos">Alunos envolvidos</h1>
+              <ul class="lista-alunos">
+                <li>Davi Barbosa Bandeira - RA: 20232024</li>
+                <li>Maria Eduarda Auad Lopes - RA: 20232031</li>
+              </ul>
+            </div>
+            <div class="container-button">
+                <a href="#sobre">
+                  <button href="#sobre" class="saiba-mais">Detalhes do projeto</button>
+                </a>
+                <a href="snake.html">
+                  <button href="snake.html" class="iniciar-jogo">Iniciar Jogo</button>
+                </a>
+
+            </div>
+          </div>
+
+          <img class="seta" src="assets/Design sem nome.gif" alt="" />
+        </div>
+
+        <div class="right-side">
+          <div class="imagem"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre">
+      <div class="container-sobre">
+        <h1 class="title">Detalhes sobre o projeto</h1>
+
+        <div class="textos">
+          <p>
+            No desenvolvimento do jogo Snake, o cálculo desempenha um papel fundamental para garantir a dinâmica fluida e desafiadora do jogo. Para calcular a posição exata da cobra em cada quadro de tempo, é necessário empregar conceitos de cálculo diferencial, como a integração para determinar a posição baseada na velocidade e a aceleração da cobra. Além disso, ao definir a física do movimento da cobra e os limites em que o jogador pode se mover, equações de física são aplicadas para garantir que a interação entre a cobra e o ambiente seja realista e coerente. A velocidade da cobra também é ajustada com base em cálculos para manter o equilíbrio entre desafio e jogabilidade. Assim, o uso do cálculo no desenvolvimento do jogo Snake não apenas garante uma experiência envolvente, mas também ilustra de forma prática a aplicação dos conceitos matemáticos na programação de jogos.
+      </div>
+    </section>
+  </body>
 </html>
